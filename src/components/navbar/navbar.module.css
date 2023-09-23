@@ -53,4 +53,7 @@
   .link {
     display: none;
   }
+  .links {
+    justify-content: flex-end;
+  }
 }
