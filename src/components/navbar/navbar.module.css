@@ -7,8 +7,8 @@
 
 .social {
   display: flex;
-  flex: 1;
   gap: 10px;
+  flex: 1;
 }
 
 .logo {
@@ -20,10 +20,10 @@
 
 .links {
   display: flex;
+  align-items: center;
+  gap: 20px;
   flex: 1;
   font-size: 20px;
-  gap: 20px;
-  align-items: center;
 }
 
 @media screen and (max-width: 1280px) {
@@ -48,12 +48,11 @@
     font-size: 24px;
   }
 }
-
 @media screen and (max-width: 640px) {
+  .links{
+    justify-content: flex-end;
+  }
   .link {
     display: none;
-  }
-  .links {
-    justify-content: flex-end;
   }
 }

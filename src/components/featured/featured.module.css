@@ -7,9 +7,6 @@
   font-weight: 300;
 }
 
-.bold {
-}
-
 .post {
   margin-top: 60px;
   display: flex;
@@ -73,7 +70,7 @@
   }
 }
 
-@media screen and (max-with: 640px) {
+@media screen and (max-width: 640px) {
   .title {
     font-size: 36px;
   }
